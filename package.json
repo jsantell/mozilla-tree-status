@@ -1,7 +1,7 @@
 {
   "name": "mozilla-tree-status",
   "description": "Displays the status of Firefox integration trees",
-  "id": "@mozilla-tree-status",
+  "id": "mozilla-tree-status",
   "main": "lib/index.js",
   "icon": "./data/tree_icon_48.png",
   "icon64": "./data/tree_icon_64.png",
