@@ -2,6 +2,7 @@
   "name": "mozilla-tree-status",
   "description": "Displays the status of Firefox integration trees",
   "id": "mozilla-tree-status@jsantell.com",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "icon": "./data/tree_icon_48.png",
   "icon64": "./data/tree_icon_64.png",
@@ -11,7 +12,6 @@
   },
   "author": "Jordan Santell",
   "title": "Mozilla Tree Status",
-  "version": "1.0.0",
   "preferences": [{
     "description": "Notification popup when the tree changes status.",
     "title": "Notification on tree open",
