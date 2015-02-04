@@ -1,214 +1,215 @@
 {
   "name": "mozilla-tree-status",
-  "description": "Displays the status of Firefox integration trees", 
-  "icon": "./data/tree_icon_48.png", 
-  "main": "lib/index.js", 
-  "icon64": "./data/tree_icon_64.png", 
-  "license": "MIT", 
+  "description": "Displays the status of Firefox integration trees",
+  "id": "@mozilla-tree-status",
+  "main": "lib/index.js",
+  "icon": "./data/tree_icon_48.png",
+  "icon64": "./data/tree_icon_64.png",
+  "license": "MIT",
   "engines": {
     "firefox": ">=33.0a1"
-  }, 
-  "author": "Jordan Santell", 
-  "title": "Mozilla Tree Status", 
-  "version": "1.0.0", 
+  },
+  "author": "Jordan Santell",
+  "title": "Mozilla Tree Status",
+  "version": "1.0.0",
   "preferences": [{
-    "description": "Which tree from https://treestatus.mozilla.org to monitor.", 
-    "title": "Tree to Observe", 
-    "value": "fx-team", 
-    "type": "menulist", 
+    "description": "Which tree from https://treestatus.mozilla.org to monitor.",
+    "title": "Tree to Observe",
+    "value": "fx-team",
+    "type": "menulist",
     "options": [
     {
-      "value": "try", 
+      "value": "try",
       "label": "try"
-    }, 
+    },
     {
-      "value": "fx-team", 
+      "value": "fx-team",
       "label": "fx-team"
-    }, 
+    },
     {
-      "value": "mozilla-inbound", 
+      "value": "mozilla-inbound",
       "label": "mozilla-inbound"
-    }, 
+    },
     {
-      "value": "mozilla-release", 
+      "value": "mozilla-release",
       "label": "mozilla-release"
-    }, 
+    },
     {
-      "value": "mozilla-beta", 
+      "value": "mozilla-beta",
       "label": "mozilla-beta"
-    }, 
+    },
     {
-      "value": "mozilla-aurora", 
+      "value": "mozilla-aurora",
       "label": "mozilla-aurora"
-    }, 
+    },
     {
-      "value": "mozilla-central", 
+      "value": "mozilla-central",
       "label": "mozilla-central"
-    }, 
+    },
     {
-      "value": "mozilla-esr31", 
+      "value": "mozilla-esr31",
       "label": "mozilla-esr31"
-    }, 
+    },
     {
-      "value": "b2g-inbound", 
+      "value": "b2g-inbound",
       "label": "b2g-inbound"
-    }, 
+    },
     {
-      "value": "gaia-try", 
+      "value": "gaia-try",
       "label": "gaia-try"
-    }, 
+    },
     {
-      "value": "mozilla-b2g37_v2_2", 
+      "value": "mozilla-b2g37_v2_2",
       "label": "mozilla-b2g37_v2_2"
-    }, 
+    },
     {
-      "value": "mozilla-b2g34_v2_1s", 
+      "value": "mozilla-b2g34_v2_1s",
       "label": "mozilla-b2g34_v2_1s"
-    }, 
+    },
     {
-      "value": "mozilla-b2g34_v2_1", 
+      "value": "mozilla-b2g34_v2_1",
       "label": "mozilla-b2g34_v2_1"
-    }, 
+    },
     {
-      "value": "mozilla-b2g32_v2_0", 
+      "value": "mozilla-b2g32_v2_0",
       "label": "mozilla-b2g32_v2_0"
-    }, 
+    },
     {
-      "value": "mozilla-b2g32_v2_0m", 
+      "value": "mozilla-b2g32_v2_0m",
       "label": "mozilla-b2g32_v2_0m"
-    }, 
+    },
     {
-      "value": "mozilla-b2g30_v1_4", 
+      "value": "mozilla-b2g30_v1_4",
       "label": "mozilla-b2g30_v1_4"
-    }, 
+    },
     {
-      "value": "UX", 
+      "value": "UX",
       "label": "UX"
-    }, 
+    },
     {
-      "value": "jamun", 
+      "value": "jamun",
       "label": "jamun"
-    }, 
+    },
     {
-      "value": "maple", 
+      "value": "maple",
       "label": "maple"
-    }, 
+    },
     {
-      "value": "elm", 
+      "value": "elm",
       "label": "elm"
-    }, 
+    },
     {
-      "value": "alder", 
+      "value": "alder",
       "label": "alder"
-    }, 
+    },
     {
-      "value": "oak", 
+      "value": "oak",
       "label": "oak"
-    }, 
+    },
     {
-      "value": "larch", 
+      "value": "larch",
       "label": "larch"
-    }, 
+    },
     {
-      "value": "gum", 
+      "value": "gum",
       "label": "gum"
-    }, 
+    },
     {
-      "value": "date", 
+      "value": "date",
       "label": "date"
-    }, 
+    },
     {
-      "value": "cypress", 
+      "value": "cypress",
       "label": "cypress"
-    }, 
+    },
     {
-      "value": "cedar", 
+      "value": "cedar",
       "label": "cedar"
-    }, 
+    },
     {
-      "value": "ash", 
+      "value": "ash",
       "label": "ash"
-    }, 
+    },
     {
-      "value": "cedar", 
+      "value": "cedar",
       "label": "cedar"
-    }, 
+    },
     {
-      "value": "birch", 
+      "value": "birch",
       "label": "birch"
-    }, 
+    },
     {
-      "value": "pine", 
+      "value": "pine",
       "label": "pine"
-    }, 
+    },
     {
-      "value": "fig", 
+      "value": "fig",
       "label": "fig"
-    }, 
+    },
     {
-      "value": "holly", 
+      "value": "holly",
       "label": "holly"
-    }, 
+    },
     {
-      "value": "graphics", 
+      "value": "graphics",
       "label": "graphics"
-    }, 
+    },
     {
-      "value": "services-central", 
+      "value": "services-central",
       "label": "services-central"
-    }, 
+    },
     {
-      "value": "try-comm-central", 
+      "value": "try-comm-central",
       "label": "try-comm-central"
-    }, 
+    },
     {
-      "value": "comm-esr31-thunderbird", 
+      "value": "comm-esr31-thunderbird",
       "label": "comm-esr31-thunderbird"
-    }, 
+    },
     {
-      "value": "comm-release-thunderbird", 
+      "value": "comm-release-thunderbird",
       "label": "comm-release-thunderbird"
-    }, 
+    },
     {
-      "value": "comm-beta-thunderbird", 
+      "value": "comm-beta-thunderbird",
       "label": "comm-beta-thunderbird"
-    }, 
+    },
     {
-      "value": "comm-aurora-thunderbird", 
+      "value": "comm-aurora-thunderbird",
       "label": "comm-aurora-thunderbird"
-    }, 
+    },
     {
-      "value": "comm-central-thunderbird", 
+      "value": "comm-central-thunderbird",
       "label": "comm-central-thunderbird"
-    }, 
+    },
     {
-      "value": "comm-release-seamonkey", 
+      "value": "comm-release-seamonkey",
       "label": "comm-release-seamonkey"
-    }, 
+    },
     {
-      "value": "comm-beta-seamonkey", 
+      "value": "comm-beta-seamonkey",
       "label": "comm-beta-seamonkey"
-    }, 
+    },
     {
-      "value": "comm-aurora-seamonkey", 
+      "value": "comm-aurora-seamonkey",
       "label": "comm-aurora-seamonkey"
-    }, 
+    },
     {
-      "value": "comm-central-seamonkey", 
+      "value": "comm-central-seamonkey",
       "label": "comm-central-seamonkey"
-    }, 
+    },
     {
-      "value": "metro", 
+      "value": "metro",
       "label": "metro"
     }
-    ], 
+    ],
       "name": "tree"
-  }, 
+  },
   {
-    "title": "Update Frequency", 
-    "type": "integer", 
-    "description": "How frequently the tree status is polled in minutes.", 
-    "value": 5, 
+    "title": "Update Frequency",
+    "type": "integer",
+    "description": "How frequently the tree status is polled in minutes.",
+    "value": 5,
     "name": "frequency"
   }]
 }
