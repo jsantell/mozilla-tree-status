@@ -1,6 +1,6 @@
 # mozilla-tree-status
 
-Firefox Addon for displaying the status of the integration trees.
+Firefox Addon for displaying the status of the integration trees. [Download from AMO](https://addons.mozilla.org/en-US/firefox/addon/mozilla-tree-status/).
 
 ![demo](https://raw.githubusercontent.com/jsantell/mozilla-tree-status/master/example/tree-status-demo.gif)
 
@@ -12,7 +12,7 @@ Firefox Addon for displaying the status of the integration trees.
 
 ## Install
 
-Grab the xpi from [./build/mozilla-tree-status.xpi](https://github.com/jsantell/mozilla-tree-status/raw/master/build/mozilla-tree-status.xpi), until lands on [addons.mozilla.org](https://addons.mozilla.org).
+Grab the xpi from [AMO](https://addons.mozilla.org/en-US/firefox/addon/mozilla-tree-status/) or install manually (without automatic updates) from [./build/mozilla-tree-status.xpi](https://github.com/jsantell/mozilla-tree-status/raw/master/build/mozilla-tree-status.xpi).
 
 ## License
 
