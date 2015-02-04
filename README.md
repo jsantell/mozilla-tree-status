@@ -2,7 +2,7 @@
 
 Firefox Addon for displaying the status of the integration trees. [Download from AMO](https://addons.mozilla.org/en-US/firefox/addon/mozilla-tree-status/).
 
-![demo](https://raw.githubusercontent.com/jsantell/mozilla-tree-status/master/example/tree-status-demo.gif)
+![demo](https://raw.githubusercontent.com/jsantell/mozilla-tree-status/master/screenshots/tree-status-demo.gif)
 
 ## Features
 
