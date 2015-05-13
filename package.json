@@ -13,6 +13,12 @@
   "author": "Jordan Santell",
   "title": "Mozilla Tree Status",
   "preferences": [{
+    "description": "Enable querying tree status.",
+    "title": "Enabled",
+    "value": true,
+    "type": "bool",
+    "name": "enabled"
+  }, {
     "description": "Notification popup when the tree changes status.",
     "title": "Notification on tree open",
     "value": true,
