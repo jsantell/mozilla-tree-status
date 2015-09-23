@@ -25,7 +25,7 @@
     "type": "bool",
     "name": "notify"
   }, {
-    "description": "Which tree from https://treestatus.mozilla.org to monitor.",
+    "description": "Which tree from https://api.pub.build.mozilla.org/treestatus to monitor.",
     "title": "Tree to Observe",
     "value": "fx-team",
     "type": "menulist",
