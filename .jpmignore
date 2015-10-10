@@ -1,2 +1,8 @@
 example/*
 build/*
+screenshots/*
+.git/*
+.jpmignore
+.gitignore
+README.md
+
